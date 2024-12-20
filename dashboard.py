@@ -13,8 +13,7 @@ from bokeh.io import export_png
 import io
 
 # Créer un titre avec du HTML et du CSS
-#title = Div(text="<h1 style='text-align: center; color: #1f77b4;'>Tableau de Bord Interactif avec Bokeh</h1>", width=800)
-# Lire le contenu du fichier HTML (qui contient aussi du CSS)
+
 html_content = """
 <div style="width: 100%; text-align: center; margin-bottom: 10px;">
     <h1 style="font-size: 2.5em; color: #1f77b4; margin: 0;">Tableau de Bord Interactif avec Bokeh</h1>
